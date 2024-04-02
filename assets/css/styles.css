@@ -1,0 +1,26 @@
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 100px; /* Ajusta el valor según sea necesario */
+}
+
+.carousel-item img {
+    max-height: 1000px; /* Altura máxima del carrusel */
+    width: auto; /* Ancho automático para mantener la proporción de aspecto */
+    object-fit: contain; /* La imagen se ajusta dentro del contenedor sin distorsionarse */
+}
+
+
+.fondo{
+    background-color: rgb(180, 180, 180);
+}
